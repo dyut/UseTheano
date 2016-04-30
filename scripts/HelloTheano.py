@@ -7,4 +7,5 @@ y = T.dscalar('y')
 z = x + y
 
 f = function([x,y], z)
-f(12, 34.2)
+sum = f(12, 34.2)
+print sum
